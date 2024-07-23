@@ -1,0 +1,91 @@
+.loginPage {
+    height: 100vh;
+    background-color: #1e1e1e;
+}
+
+.loginContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30vh;
+}
+
+
+.labelloginmail,
+.labelloginpassword {
+    color: white;
+    font-family: "Inter", sans-serif;
+
+
+}
+
+.inputloginContainer {
+    margin-bottom: 0.8em;
+    display: flex;
+    align-items: center;
+    width: 22vw;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgb(218, 208, 208);
+    margin-top: 0.5em;
+}
+
+.inputloginContainer input {
+    height: 40px;
+    width: 20vw;
+    background: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin-left: 0.5em;
+}
+
+
+
+.submitlogincontainer {
+    margin-bottom: 1em;
+    margin-top: 2em;
+    display: flex;
+    width: 22vw;
+    height: 40px;
+}
+
+.submitlogincontainer input {
+    cursor: pointer;
+    border-radius: 10px;
+    height: 41px;
+    width: 21vw;
+    background-color: rgb(26, 95, 255);
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+}
+
+
+.error {
+    color: red;
+    margin-bottom: 4em;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+.logingroup1 {
+    float: left;
+    margin-top: -5em;
+}
+
+.loginellipse2 {
+    float: right;
+    margin-top: -8em;
+}
+
+.loginellipse1 {
+    float: bottom;
+    margin-top: 51.5vh;
+    margin-left: 36.5vw;
+}

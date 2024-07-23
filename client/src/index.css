@@ -1,0 +1,32 @@
+/* adding chrome autofill bg color settings */
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+input[data-autocompleted] {
+  background-color: transparent !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: "Open Sans";
+  height: 100%;
+  overflow: hidden;
+
+
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/Fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
